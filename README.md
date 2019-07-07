@@ -8,3 +8,6 @@ Apply viterbi algorithm to parse Australian address strings in Query_file into (
 
 2.emission matrix: 
 </br>emission[i][j] means the probability of state i emits symbol j.
+
+3.top_k_viterbi() function:
+</br>This will return k results with top probability. Each result consist of a list of numbers which refer to a sequence of  the indexes of states.
